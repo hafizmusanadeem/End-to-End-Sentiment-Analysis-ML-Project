@@ -1,0 +1,11 @@
+[project]
+name = "src"
+version = "0.0.1"
+description = "An End to End Sentiment Analysis Project"
+authors = [{name = "Musa Nadeem", email = "musanad04@gmail.com"}]
+
+[tool.setuptools]
+packages = {find = {}}
+
+[tool.setuptools.dynamic]
+dependencies = {file = "requirements.txt"}
