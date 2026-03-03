@@ -46,3 +46,4 @@ isort==5.13.2
 
 # Gunicorn for production API
 gunicorn==21.2.0
+-e .
